@@ -23,5 +23,20 @@
   "license": "ISC",
   "directories": {
     "test": "test"
-  }
+  },
+  "description": "provides a way to connect to and query Jira",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reergymerej/jira-query.git"
+  },
+  "keywords": [
+    "jira",
+    "query",
+    "api"
+  ],
+  "author": "Jeremy Greer",
+  "bugs": {
+    "url": "https://github.com/reergymerej/jira-query/issues"
+  },
+  "homepage": "https://github.com/reergymerej/jira-query#readme"
 }
