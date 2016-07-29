@@ -22,7 +22,6 @@ function getConfigFile() {
 
 export function getConfig() {
   if (manuallySetConfig) {
-    console.log('manuallySetConfig', manuallySetConfig);
     return manuallySetConfig;
   }
 

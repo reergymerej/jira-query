@@ -83,8 +83,7 @@ export function searchForIssues(jql) {
   .then(resp => resp.json())
   .then(resp => resp.issues)
   .catch(err => {
-    process.stdout.write(`unable to perform search: ${err.message}\n`);
-    throw err;
+    throw new Error(`unable to perform search: ${err.message}`);
   });
 }
 
